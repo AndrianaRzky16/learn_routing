@@ -26,8 +26,8 @@ import { Bank } from "./bank.js";
 
 const bca = new Bank("BCA");
 
-const bcaAccount1 = new BankAccount("1234567890", "John Doe", 100000);
-const bcaAccount2 = new BankAccount("9876543210", "Jane Doe", 200000);
+const bcaAccount1 = new BankAccount("1234567890", "John Doe", 1000);
+const bcaAccount2 = new BankAccount("9876543210", "Jane Doe", 2000);
 
 // Add accounts to BCA
 bca.addAccount(bcaAccount1);

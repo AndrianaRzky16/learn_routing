@@ -45,7 +45,7 @@ class Bank {
       console.log(`Account Number: ${account.accountNumber}`);
       console.log(`Account Holder: ${account.accountHolder}`);
       account.listBalance(); // List individual account balance
-      console.log("---");
+      // console.log("---");
     }
   }
 }
