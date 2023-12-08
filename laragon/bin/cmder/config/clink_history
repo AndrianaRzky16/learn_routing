@@ -1,0 +1,30 @@
+|CTAG_1663167284_18455859_4204_0
+cd ...
+cd .
+D:\laragon
+|hp -v
+|s
+|d internalcoreservice\
+|s
+|hp artisan serve --port=15001
+|hp -v
+php artisan optimize:clear
+|hp artisan serve --port=15001
+|hp -v
+|s
+cd internalcoreservice\
+|s
+|hp artisan serve --port=15001
+|hp artisan serve --port=15001
+|hp artisan serve --port=15001
+|hp artisan serve --port=15001
+cd
+li
+|s
+internalcoreservice
+cd internalcoreservice
+php -v
+php artisan serve --port=15001
+ls
+cd uiinternal
+git pull origin dev_davin

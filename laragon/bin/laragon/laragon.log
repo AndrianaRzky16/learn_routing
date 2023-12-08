@@ -1,0 +1,52 @@
+2023-09-25 12:18:14: Init DataDir at: D:\laragon\data\mysql-8
+2023-09-25 12:19:09: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-09-25 12:19:21: nothing
+2023-10-04 08:38:35: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-10-05 08:54:51: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-10-09 16:18:50: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-10-11 17:37:29: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-10-16 19:18:56: nothing
+2023-10-16 19:18:59: nothing
+2023-10-16 19:19:07: nothing
+2023-10-16 19:20:23: nothing
+2023-10-16 19:26:02: nothing
+2023-10-17 09:29:29: nothing
+2023-10-18 09:54:15: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-10-27 14:48:34: nothing
+2023-10-27 14:48:41: nothing
+2023-10-27 14:49:06: nothing
+2023-10-27 17:01:22: nothing
+2023-10-27 17:02:35: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-10-30 11:37:52: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-11-03 09:07:45: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
+2023-11-07 09:02:27: SSL: Signature ok
+subject=C = SG, ST = Singapore, L = Singapore, O = Laragon, OU = IT, CN = laragon
+Getting Private key
+
