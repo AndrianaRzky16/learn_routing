@@ -1,0 +1,25 @@
+/* @import url(https://fonts.bunny.net/css?family=akronim:400);
+h1 {
+  font-size: 30;
+}
+p {
+  font-size: 20;
+  margin-top: 20px;
+  font-family: "Akronim", display;
+}
+
+h2 {
+  font-size: 20;
+  font-style: italic;
+}
+
+p.fw {
+  font-family: "Roboto", sans-serif;
+} */
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --tertiary-color: #000;
+  --danger: red --border-radius;
+}

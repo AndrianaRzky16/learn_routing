@@ -1,0 +1,300 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  background-image: url("assets/Programmer\ Life.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+header img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#about-me p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+#skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+#skills li {
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-list li {
+  width: 30%;
+  margin: 10px;
+  border: 1px;
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image img {
+  width: 100px; /* Set the width of the image */
+  max-width: 100%; /* Ensure image scales down on smaller screens */
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-list li img {
+  border-radius: 5px; /* Set rounded corners for project images */
+  width: 100%; /* Use the image's full width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add space below the image */
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  width: 50%;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+@media screen and (max-width: 768px) {
+  .project-list {
+    justify-content: flex-start;
+  }
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#contact h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-links li {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #eee;
+  text-decoration: none;
+}
+
+.contact-links li:hover {
+  background-color: #ddd;
+}
+
+.contact-links img {
+  width: 40px; /* Increased size */
+  height: 40px; /* Increased size */
+  margin-right: 10px;
+  vertical-align: middle; /* Align icons vertically with text */
+}
+
+@media screen and (max-width: 768px) {
+  .profile-image {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-text h1 {
+    font-size: 1.5em;
+  }
+  .profile-text p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile-image {
+    flex-direction: column-reverse;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile-image {
+    background-size: contain; /* Adjust background size for smaller screens */
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar.active {
+  width: 60px;
+}
+
+.sidebar .logo {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.sidebar .logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar .nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar .nav-links li {
+  margin: 10px 0;
+}
+
+.sidebar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar .nav-links li a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.sidebar .social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar .social-links li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.sidebar .social-links li a {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.sidebar .social-links li a:hover {
+  color: #ddd;
+}
+
+.fa-brands {
+  transform: translateY(-1px);
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar .toggle-btn {
+  cursor: pointer;
+}
+
+.sidebar.active .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar.active .nav-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sidebar.active .social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.sidebar.active .nav-links li {
+  margin: 10px 0;
+}
+
+.sidebar.active .nav-links li a {
+  padding: 10px;
+}

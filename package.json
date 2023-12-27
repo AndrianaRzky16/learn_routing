@@ -1,8 +1,5 @@
 {
   "dependencies": {
-    "helpers": "^0.0.6"
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^8.3.1"
+    "vite": "^5.0.10"
   }
 }

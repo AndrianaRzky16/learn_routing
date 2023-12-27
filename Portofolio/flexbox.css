@@ -1,0 +1,88 @@
+/* General styles for flex container */
+.flex-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 800px;
+  display: flex;
+  background-color: lightgray;
+}
+
+/* Style for each flex item */
+.flex-item {
+  background-color: #4caf50;
+  color: white;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0.7em;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.flex-item:hover {
+  background-color: #45a049;
+}
+
+.flex-item:active {
+  background-color: #3d853c;
+}
+
+.flex-item:focus {
+  background-color: #3d853c;
+}
+
+.flex-item:visited {
+  background-color: #3d853c;
+}
+
+.flex-item:link {
+  background-color: #3d853c;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* Item colors */
+.item-1 {
+  background-color: #f1f1f1;
+  color: black;
+}
+.item-2 {
+  background-color: #fce4ec;
+  color: black;
+}
+.item-3 {
+  background-color: #e8f5e9;
+  color: black;
+}
+.item-4 {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.item {
+  order: 4;
+}
+
+/* Alignment styles */
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}

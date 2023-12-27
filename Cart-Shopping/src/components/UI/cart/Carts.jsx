@@ -44,8 +44,8 @@ const Carts = () => {
             Subtotal : <span>Rp{totalAmount}</span>
           </h6>
           <button onClick={() => {
-              dispatch(cartActions.clearCart());
               toast('Checkout successful!');
+              dispatch(cartActions.clearCart());
             }}>
              Checkout
           </button>

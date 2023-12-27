@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Container, Row, Col, Pagination } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 import products from "../assets/fake-data/products";
 import ProductCard from "../components/UI/product-card/ProductCard";
@@ -47,8 +47,9 @@ const Pizzas = () => {
             pageCount={pageCount}
             onPageChange={changePage}
             containerClassName="paginationBttns"
-            previousLabel={<span className="hide-button">Previous</span>}
-            nextLabel={<span className="hide-button">Next</span>}
+            previousLabel={<span>Previous</span>}
+            nextLabel={<span>Next</span>}
+            // renderOnZeroPageCount={null}
           />
 
             {/* <ReactPaginate
